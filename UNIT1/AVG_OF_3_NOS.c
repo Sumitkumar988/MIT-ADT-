@@ -1,4 +1,6 @@
 // THIS PROGRAM CALCULATES AVERAGE OF 3 NUMBERS
+
+
 #include <stdio.h>
 
 int main()
