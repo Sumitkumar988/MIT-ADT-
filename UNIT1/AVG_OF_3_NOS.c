@@ -1,10 +1,22 @@
+// THIS PROGRAM CALCULATES AVERAGE OF 3 NUMBERS
 #include <stdio.h>
+
 int main()
 {
-    float radius,area,pie;
-    const float pi = 3.1415;
-    printf("Enter radius:");
-    scanf("%f", &radius);
-    area = pi*radius*radius;
-    printf("Area of circle = %f",area);
+    float a, b, c, average;
+
+    printf("Enter 1st number: ");
+    scanf("%f", &a);
+
+    printf("Enter 2nd number: ");
+    scanf("%f", &b);
+
+    printf("Enter 3rd number: ");
+    scanf("%f", &c);
+
+    average = (a + b + c) / 3.0;
+
+    printf("average = %.2f\n", average);
+
     return 0;
+}
