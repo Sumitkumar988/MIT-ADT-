@@ -11,3 +11,4 @@ int main()
     area = pi*radius*radius;
     printf("Area of circle = %f",area);
     return 0;
+}
