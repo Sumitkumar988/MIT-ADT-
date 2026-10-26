@@ -18,7 +18,7 @@ printf("Enter the number of elements: ");
 
 scanf("%d", &n);
 
-5/16
+
 
 printf("Enter %d elements:\n", n);
 
